@@ -8,6 +8,7 @@ add_requires("tiltedcore v0.2.7", "hopscotch-map v2.3.1", "snappy 1.1.10", "game
 -- dependencies' dependencies version pinning
 add_requireconfs("*.mimalloc", { version = "2.1.7", override = true })
 add_requireconfs("*.openssl", { version = "1.1.1-w", override = true })
+add_requireconfs("*.openssl3", { version = "3.3.4", override = true })
 add_requireconfs("*.cmake", { version = "3.30.2", override = true })
 add_requireconfs("*.protobuf*", { version = "26.1", override = true }) 
 add_requireconfs("**.abseil*", { version = "20250127.1", override = true }) 
